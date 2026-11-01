@@ -1,0 +1,12 @@
+# Generated EDA outputs (keep folder structure only)
+ftir_eda_outputs/**/*
+!ftir_eda_outputs/**/
+!ftir_eda_outputs/**/.gitkeep
+
+# Raw data must never be committed
+data/
+
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.DS_Store
